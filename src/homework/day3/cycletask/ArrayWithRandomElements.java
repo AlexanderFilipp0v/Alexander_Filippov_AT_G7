@@ -62,5 +62,23 @@ public class ArrayWithRandomElements {
         for (int i = 0; i < array1.length; i++) {
             System.out.print(array1[i] + " ");
         }
+        System.out.println();
+    }
+
+    public void ArraySort() {
+        for (int i = 0; i < array1.length; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < array1.length; j++) {
+                if (array1[j] < array1[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            int temp = array1[i];
+            array1[i] = array1[minIndex];
+            array1[minIndex] = temp;
+        }
+        for (int i = 0; i < array1.length; i++) {
+            System.out.print(array1[i] + " ");
+        }
     }
 }

@@ -17,6 +17,7 @@ public class CycleTaskRunner {
         third.ArrayMultipliedByItself();
         third.ArrayMin();
         third.ArrayFirstLast();
+        third.ArraySort();
 
     }
 
