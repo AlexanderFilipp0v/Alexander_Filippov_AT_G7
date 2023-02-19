@@ -51,10 +51,10 @@ public class TrainMethodsIf {
     }
 
     public void returnNewBoolean(boolean value) {
-        if (value == true) {
+        if (value) {
             System.out.println("Я получил на вход значение истины");
         }
-        if (value == false) {
+        else {
             System.out.println("Я получил на вход ложь");
         }
     }
