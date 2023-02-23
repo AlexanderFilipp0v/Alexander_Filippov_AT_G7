@@ -4,7 +4,6 @@ public class ArrayTask {
 
     public static void main(String[] args) {
         ArrayTask x = new ArrayTask();
-        //x.methodNSum();
         x.methodPicture();
     }
 
