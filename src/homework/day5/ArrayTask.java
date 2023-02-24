@@ -64,7 +64,7 @@ public class ArrayTask {
         System.out.println(summ);
         System.out.println(" ");
     }
-    
+   
     public void methodPicture() {
 
         System.out.println("\t  ^__^");
@@ -74,4 +74,3 @@ public class ArrayTask {
         System.out.println("\t      ||     ||");
     }
 }
-
