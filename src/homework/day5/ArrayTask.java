@@ -32,7 +32,6 @@ public class ArrayTask {
         }
 
         int[] secondArray = new int[secondArrayLength];
-
         int j = secondArrayLength - 1;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > n) {
@@ -49,7 +48,6 @@ public class ArrayTask {
 
         }
         System.out.println(" ");
-
         System.out.println();
     }
 
@@ -64,9 +62,9 @@ public class ArrayTask {
 
         }
         System.out.println(summ);
-        System.out.println();
+        System.out.println(" ");
     }
-
+   
     public void methodPicture() {
 
         System.out.println("\t  ^__^");
@@ -76,5 +74,3 @@ public class ArrayTask {
         System.out.println("\t      ||     ||");
     }
 }
-
-

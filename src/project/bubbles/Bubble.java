@@ -1,5 +1,5 @@
-//package bubbles;
-//
+package bubbles;
+
 //public class Bubble {
 //    private double volume;
 //    private String gas;
