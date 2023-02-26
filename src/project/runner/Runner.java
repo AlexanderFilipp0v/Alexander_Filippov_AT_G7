@@ -1,19 +1,16 @@
-package bubbles;
+package project.runner;
 
-//public class Runner {
-//
-//    public static void main(String[] args) {
-//
-//        //Bubble firstBubble = new Bubble(03, "oxygen");
-//        //firstBubble.printCramp();
-//        //Water firstWater= new Water("no", "transparent", "no", 0);
-//        //firstWater.printWater();
-//       
-//        //Bubble first = new Bubble();
-//        //first.processBubble(firstBubble);
-//
-//
-//
-//    }
-//
-//}
+public class Runner {
+
+        public static void main (String[]args){
+
+            Bottle bottle1 = new Bottle(0.5);
+            Bottle bottle2 = new Bottle(1);
+            Bottle bottle3 = new Bottle(1.5);
+
+            bottle1.open();
+            bottle2.open();
+            bottle3.open();
+        }
+    }
+
