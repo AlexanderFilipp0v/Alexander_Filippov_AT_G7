@@ -39,13 +39,11 @@ public class ArrayTask {
                 System.out.print(secondArray[j] + " ");
                 j--;
             }
-
         }
         System.out.println(" ");
 
         for (int i = 0; i < secondArray.length; i++) {
             System.out.print(secondArray[i] + " ");
-
         }
         System.out.println(" ");
         System.out.println();
@@ -59,7 +57,6 @@ public class ArrayTask {
         for (int i : array) {
             if (i % month == 0)
                 summ = summ + i;
-
         }
         System.out.println(summ);
         System.out.println(" ");
