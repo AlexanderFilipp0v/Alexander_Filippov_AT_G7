@@ -1,4 +1,4 @@
-package project.bubbles;
+/*package project.bubbles;
 
 public class Bubble {
 
@@ -9,5 +9,5 @@ public class Bubble {
     public void Cramp() {
         System.out.println("Cramp!");
     }
-}
+}*/
 

@@ -1,4 +1,4 @@
-package project.liquids;
+/*package project.liquids;
 
 public abstract class Water {
 
@@ -24,4 +24,4 @@ public abstract class Water {
     public void printWater() {
         System.out.println();
     }
-    }
+    }*/

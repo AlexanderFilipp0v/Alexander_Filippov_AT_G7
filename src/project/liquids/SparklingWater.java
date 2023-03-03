@@ -1,4 +1,4 @@
-package project.liquids;
+/*package project.liquids;
 
 public class SparklingWater extends Water {
     private Bubble[] bubbles;
@@ -17,5 +17,5 @@ public class SparklingWater extends Water {
         }
     }
 
-    }
+    }*/
 
