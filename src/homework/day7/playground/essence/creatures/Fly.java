@@ -1,5 +1,7 @@
 package homework.day7.playground.essence.creatures;
 
-public class Fly extends Insect {
+import homework.day7.playground.essence.Flyable;
+
+public class Fly extends Insect implements Flyable {
 
 }
