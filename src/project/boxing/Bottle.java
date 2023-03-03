@@ -1,4 +1,4 @@
-package project.boxing;
+/*package project.boxing;
 
 public class Bottle {
 
@@ -19,4 +19,4 @@ public class Bottle {
         water.degas();
     }
 
-}
+}*/
