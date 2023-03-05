@@ -3,7 +3,7 @@ package homework.day7.playground.utils;
 public class DirectionGenerator {
     public static String generateDirection() {
         int randomNumber = 1 + (int) (Math.random() * 39);
-        String direction = "Hello";
+        String direction = "direction";
         if (randomNumber >= 1 && randomNumber <= 9) {
             direction = "NORTH";
         }

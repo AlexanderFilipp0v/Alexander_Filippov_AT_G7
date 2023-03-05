@@ -4,13 +4,13 @@ public class CycleTaskRunner {
 
     public static void main(String[] args) {
 
-        NumbersFromOnetoTwenty one = new NumbersFromOnetoTwenty();
+        cycletask.NumbersFromOnetoTwenty one = new cycletask.NumbersFromOnetoTwenty();
         one.NumbersFromOnetoTwentyOutput();
 
-        UnevenNumbersFromThreeToNineteen second = new UnevenNumbersFromThreeToNineteen();
+        cycletask.UnevenNumbersFromThreeToNineteen second = new cycletask.UnevenNumbersFromThreeToNineteen();
         second.UnevenNumbersFromThreeToNineteenOutput();
 
-        ArrayWithRandomElements third = new ArrayWithRandomElements();
+        cycletask.ArrayWithRandomElements third = new cycletask.ArrayWithRandomElements();
         third.ArrayWithRandomElementsCreationAndOutput();
         third.ArrayReverse();
         third.ArrayMultipliedByFive();
