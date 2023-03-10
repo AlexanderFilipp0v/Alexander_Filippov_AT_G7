@@ -4,11 +4,13 @@ public class StringStaticRunner {
 
     public static void main(String[] args) {
 
-        //DateConsole pr = new DateConsole();
-        //pr.DateConsolen();
 
-        Column pr1 = new Column();
-        pr1.methodColumn("String to column");
+
+        ColumnSt ex1 = new ColumnSt();
+        ex1.methodColumn("String to column");
+
+        DuplicatesSt ex2 = new DuplicatesSt();
+        ex2.DuplicatesWords("one two three one two four");
     }
 
 
