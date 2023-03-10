@@ -45,7 +45,6 @@ public class FlyableProcessorRunner {
         Flyable_Processor.runFlyable(aRocket);
         Flyable_Processor.runFlyable(aFly);
         Flyable_Processor.runFlyable(aMosquito);
-
         System.out.println();
         Flyable_Processor.runFlyable(flyableCopter, "никуда");
         Flyable_Processor.runFlyable(flyablePlane, "повсюду");
