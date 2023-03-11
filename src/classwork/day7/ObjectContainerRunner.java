@@ -1,4 +1,4 @@
-package classworkday7;
+package classwork.day7;
 
 public class ObjectContainerRunner {
 
@@ -9,7 +9,7 @@ public class ObjectContainerRunner {
         for (int i = 0; i < 10; i++) {
             objectContainer.add(i);
         }
-        for (int i = 0; i < 10; i++) {
+        while (!objectContainer.isEmpty()) {
             System.out.println(objectContainer.removeLast());
         }
 

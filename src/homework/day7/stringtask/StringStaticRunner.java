@@ -4,19 +4,15 @@ public class StringStaticRunner {
 
     public static void main(String[] args) {
 
+        new ColumnSt().methodColumn("String to column");
 
+        new DuplicatesSt().DuplicatesWords("one two three one four two four");
 
-        ColumnSt ex1 = new ColumnSt();
-        ex1.methodColumn("String to column");
+        new NumbersInArraySt().MethodNumbersInArray("2dkhfgb9834y98232db32dbabcb23j");
 
-        DuplicatesSt ex2 = new DuplicatesSt();
-        ex2.DuplicatesWords("one two three one two four four");
+        new DateConsoleSt().DateConsolen();
 
-        DateConsoleSt ex5 = new DateConsoleSt();
-        ex5.DateConsolen();
-
-        DateFormattingSt ex6 = new DateFormattingSt();
-        ex6.Formatting("22.00 07.09.2020");
+        new DateFormattingSt().Formatting("22.00 07.09.2020");
     }
 
 }

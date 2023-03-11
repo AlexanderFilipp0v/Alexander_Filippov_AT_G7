@@ -1,4 +1,4 @@
-package classworkday7;
+package classwork.day7;
 
 public class ObjectContainer {
 
@@ -24,7 +24,8 @@ public class ObjectContainer {
     }
 
     public boolean isEmpty() {
-        return empos != 0;
+
+        return empos == 0;
     }
 
 }

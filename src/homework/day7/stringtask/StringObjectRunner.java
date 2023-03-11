@@ -4,20 +4,15 @@ public class StringObjectRunner {
 
     public static void main(String[] args) {
 
-        Column ex1 = new Column();
-        ex1.methodColumn("String to column");
+        new Column().methodColumn("String to column");
 
-        Duplicates ex2 = new Duplicates();
-        ex2.DuplicatesWords("one two three one two four");
+        new Duplicates().DuplicatesWords("one two three one two four");
 
-        //NumbersInArray ex3 = new NumbersInArray();
-        //ex3.MethodNumbersInArray("2dkhfgb9834y98232db32dbabcb23j");
+        new NumbersInArray().MethodNumbersInArray("2dkhfgb9834y98232db32dbabcb23j");
 
-        DateConsole ex5 = new DateConsole();
-        ex5.DateConsolen();
+        new DateConsole().DateConsolen();
 
-        DateFormatting ex6 = new DateFormatting();
-        ex6.Formatting("22.00 07.09.2020");
+        new DateFormatting().Formatting("22.00 07.09.2020");
     }
 
 }

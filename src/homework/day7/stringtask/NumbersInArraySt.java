@@ -2,7 +2,7 @@ package homework.day7.stringtask;
 
 import java.util.Arrays;
 
-public class NumbersInArray {
+public class NumbersInArraySt {
 
     public void MethodNumbersInArray(String text) {
         String[] numbersStringArray = text.split("\\D+");
@@ -14,5 +14,4 @@ public class NumbersInArray {
         }
         System.out.println(Arrays.toString(digitals));
     }
-
 }
