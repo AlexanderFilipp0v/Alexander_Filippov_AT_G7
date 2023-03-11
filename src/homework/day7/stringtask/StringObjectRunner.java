@@ -15,6 +15,9 @@ public class StringObjectRunner {
 
         DateConsole ex5 = new DateConsole();
         ex5.DateConsolen();
+
+        DateFormatting ex6 = new DateFormatting();
+        ex6.Formatting("22.00 07.09.2020");
     }
 
 }
