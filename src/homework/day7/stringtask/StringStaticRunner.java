@@ -10,9 +10,14 @@ public class StringStaticRunner {
         ex1.methodColumn("String to column");
 
         DuplicatesSt ex2 = new DuplicatesSt();
-        ex2.DuplicatesWords("one two three one two four");
-    }
+        ex2.DuplicatesWords("one two three one two four four");
 
+        DateConsoleSt ex5 = new DateConsoleSt();
+        ex5.DateConsolen();
+
+        DateFormattingSt ex6 = new DateFormattingSt();
+        ex6.Formatting("22.00 07.09.2020");
+    }
 
 }
 
