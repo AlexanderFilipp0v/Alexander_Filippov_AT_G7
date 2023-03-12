@@ -13,6 +13,8 @@ public class StringObjectRunner {
         new DateConsole().DateConsolen();
 
         new DateFormatting().Formatting("22.00 07.09.2020");
+
+        new GenDate().GenerationDate("Hello привет раз два");
     }
 
 }

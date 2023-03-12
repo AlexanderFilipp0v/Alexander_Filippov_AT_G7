@@ -13,6 +13,8 @@ public class StringStaticRunner {
         new DateConsoleSt().DateConsolen();
 
         new DateFormattingSt().Formatting("22.00 07.09.2020");
+
+        new GenDateSt().GenerationDate("Hello привет раз два три Hello");
     }
 
 }
