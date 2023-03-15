@@ -15,6 +15,11 @@ public class StringStaticRunner {
         new DateFormattingSt().Formatting("22.00 07.09.2020");
 
         new GenDateSt().GenerationDate("Hello привет раз два три Hello");
+
+        new LogSt().LogPrint("access_log.2020.09.07 212.168.101.5 granted\n" +
+                "access_log.2020.09.07 212.168.101.6 denied\n" +
+                "access_log.2020.09.07 212.168.101.6 denied\n" +
+                "access_log.2020.09.07 212.168.122.6 denied");
     }
 
 }

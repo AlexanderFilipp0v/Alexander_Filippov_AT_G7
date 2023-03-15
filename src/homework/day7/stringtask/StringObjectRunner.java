@@ -15,7 +15,13 @@ public class StringObjectRunner {
         new DateFormatting().Formatting("22.00 07.09.2020");
 
         new GenDate().GenerationDate("Hello привет раз два");
+
+        new Log().LogPrint("access_log.2020.09.07 212.168.101.5 granted\n" +
+                "access_log.2020.09.07 212.168.101.6 denied\n" +
+                "access_log.2020.09.07 212.168.101.6 denied\n" +
+                "access_log.2020.09.07 212.168.122.6 denied");
+    }
     }
 
-}
+
 
