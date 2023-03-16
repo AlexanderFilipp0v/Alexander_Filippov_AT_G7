@@ -1,8 +1,10 @@
-/* package project.runner;
+package project.runner;
+
+import project.boxing.Bottle;
 
 public class Runner {
 
-        public static void main (String[]args){
+        public static void main (String[]args) throws InterruptedException{
 
             Bottle bottle1 = new Bottle(0.5);
             Bottle bottle2 = new Bottle(1);
@@ -15,4 +17,3 @@ public class Runner {
     }
 
 
-*/
