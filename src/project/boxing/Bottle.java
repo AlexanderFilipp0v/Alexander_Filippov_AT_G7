@@ -1,4 +1,8 @@
-/*package project.boxing;
+package project.boxing;
+
+import project.bubbles.Bubble;
+import project.liquids.SparklingWater;
+import project.liquids.Water;
 
 public class Bottle {
 
@@ -8,15 +12,30 @@ public class Bottle {
     public Bottle(double volume) {
         this.volume = volume;
         this.water = new SparklingWater();
-        Bubbles[] bubbles = new Bubbles[(int) (10000 * volume)];
-        for (int i = 0; i < bubbles.length; i++) {
-            bubbles[i] = new Bubbles();
-        }
-        water.pump(bubbles);
+        ((SparklingWater) water).pump(new Bubble[(int) (volume * 10000)]);
     }
 
-    public void open() {
-        water.degas();
+    public double getVolume() {
+        return volume;
     }
 
-}*/
+    public void setVolume(double volume) {
+        this.volume = volume;
+    }
+
+    public Water getWater() {
+        return water;
+    }
+
+    public void setWater(Water water) {
+        this.water = water;
+    }
+
+    public void open() throws InterruptedException {
+        ((SparklingWater) this.water).setOpened(true);
+    }
+
+    public void warm(int temperature) {
+        this.water.setTemperature((temperature));
+    }
+}
