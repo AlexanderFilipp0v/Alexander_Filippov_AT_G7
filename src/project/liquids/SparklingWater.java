@@ -53,7 +53,6 @@ public class SparklingWater extends Water {
     }
 
     private void isOpened() {
-
     }
 }
 

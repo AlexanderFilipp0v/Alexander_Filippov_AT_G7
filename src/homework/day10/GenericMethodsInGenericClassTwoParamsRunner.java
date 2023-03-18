@@ -123,122 +123,98 @@ public class GenericMethodsInGenericClassTwoParamsRunner {
         System.out.println(GenericClassSS.genericMethodGenArgs(objectString, objectString));
         GenericClassSS.genericMethodHalfGenArgs(objectString, objectString);
         GenericClassSS.genericMethodHalfGenArgs(objectString, objectString, objectString);
-
         System.out.println(GenericClassSI.genericMethodGenArgs(objectString));
         System.out.println(GenericClassSI.genericMethodGenArgs(objectString, objectInteger));
         GenericClassSI.genericMethodHalfGenArgs(objectString, objectString);
         GenericClassSI.genericMethodHalfGenArgs(objectString, objectInteger, objectString);
-
         System.out.println(GenericClassSD.genericMethodGenArgs(objectString));
         System.out.println(GenericClassSD.genericMethodGenArgs(objectString, objectDouble));
         GenericClassSD.genericMethodHalfGenArgs(objectString, objectString);
         GenericClassSD.genericMethodHalfGenArgs(objectString, objectDouble, objectString);
-
         System.out.println(GenericClassII.genericMethodGenArgs(objectInteger));
         System.out.println(GenericClassII.genericMethodGenArgs(objectInteger, objectInteger));
         GenericClassII.genericMethodHalfGenArgs(objectInteger, objectString);
         GenericClassII.genericMethodHalfGenArgs(objectInteger, objectInteger, objectString);
-
         System.out.println(xAircraftCopter.genericMethodGenArgs(objectAircraft));
         System.out.println(xAircraftCopter.genericMethodGenArgs(objectAircraft, objectCopter));
         xAircraftCopter.genericMethodHalfGenArgs(objectAircraft, objectString);
         xAircraftCopter.genericMethodHalfGenArgs(objectAircraft, objectCopter, objectString);
-
         System.out.println(xPlaneRocket.genericMethodGenArgs(objectPlane));
         System.out.println(xPlaneRocket.genericMethodGenArgs(objectPlane, objectRocket));
         xPlaneRocket.genericMethodHalfGenArgs(objectPlane, objectString);
         xPlaneRocket.genericMethodHalfGenArgs(objectPlane, objectRocket, objectString);
-
         System.out.println(xCarMoped.genericMethodGenArgs(objectCar));
         System.out.println(xCarMoped.genericMethodGenArgs(objectCar, objectMoped));
         xCarMoped.genericMethodHalfGenArgs(objectCar, objectString);
         xCarMoped.genericMethodHalfGenArgs(objectCar, objectMoped, objectString);
-
         System.out.println(xMotorbikeVehicle.genericMethodGenArgs(objectMotorbike));
         System.out.println(xMotorbikeVehicle.genericMethodGenArgs(objectMotorbike, objectVehicle));
         xMotorbikeVehicle.genericMethodHalfGenArgs(objectMotorbike, objectString);
         xMotorbikeVehicle.genericMethodHalfGenArgs(objectMotorbike, objectVehicle, objectString);
-
         System.out.println(xBottleCan.genericMethodGenArgs(objectBottle));
         System.out.println(xBottleCan.genericMethodGenArgs(objectBottle, objectCan));
         xBottleCan.genericMethodHalfGenArgs(objectBottle, objectString);
         xBottleCan.genericMethodHalfGenArgs(objectBottle, objectCan, objectString);
-
         System.out.println(xContainerMug.genericMethodGenArgs(objectContainer));
         System.out.println(xContainerMug.genericMethodGenArgs(objectContainer, objectMug));
         xContainerMug.genericMethodHalfGenArgs(objectContainer, objectString);
         xContainerMug.genericMethodHalfGenArgs(objectContainer, objectMug, objectString);
-
         System.out.println(xStorableRideable.genericMethodGenArgs(objectStorable));
         System.out.println(xStorableRideable.genericMethodGenArgs(objectStorable, objectRideable));
         xStorableRideable.genericMethodHalfGenArgs(objectStorable, objectString);
         xStorableRideable.genericMethodHalfGenArgs(objectStorable, objectRideable, objectString);
-
         System.out.println(xTransportableAnimal.genericMethodGenArgs(objectTransportable));
         System.out.println(xTransportableAnimal.genericMethodGenArgs(objectTransportable, objectAnimal));
         xTransportableAnimal.genericMethodHalfGenArgs(objectTransportable, objectString);
         xTransportableAnimal.genericMethodHalfGenArgs(objectTransportable, objectAnimal, objectString);
-
         System.out.println(xBeetleCarrot.genericMethodGenArgs(objectBeetle));
         System.out.println(xBeetleCarrot.genericMethodGenArgs(objectBeetle, objectCarrot));
         xBeetleCarrot.genericMethodHalfGenArgs(objectBeetle, objectString);
         xBeetleCarrot.genericMethodHalfGenArgs(objectBeetle, objectCarrot, objectString);
-
         System.out.println(xChamomileCrawlable.genericMethodGenArgs(objectChamomile));
         System.out.println(xChamomileCrawlable.genericMethodGenArgs(objectChamomile, objectCrawlable));
         xChamomileCrawlable.genericMethodHalfGenArgs(objectChamomile, objectString);
         xChamomileCrawlable.genericMethodHalfGenArgs(objectChamomile, objectCrawlable, objectString);
-
         System.out.println(xCrocodileFlower.genericMethodGenArgs(objectCrocodile));
         System.out.println(xCrocodileFlower.genericMethodGenArgs(objectCrocodile, objectFlower));
         xCrocodileFlower.genericMethodHalfGenArgs(objectCrocodile, objectString);
         xCrocodileFlower.genericMethodHalfGenArgs(objectCrocodile, objectFlower, objectString);
-
         System.out.println(xFlyInsect.genericMethodGenArgs(objectFly));
         System.out.println(xFlyInsect.genericMethodGenArgs(objectFly, objectInsect));
         xFlyInsect.genericMethodHalfGenArgs(objectFly, objectString);
         xFlyInsect.genericMethodHalfGenArgs(objectFly, objectInsect, objectString);
-
         System.out.println(xMaylilyMosquito.genericMethodGenArgs(objectMaylily));
         System.out.println(xMaylilyMosquito.genericMethodGenArgs(objectMaylily, objectMosquito));
         xMaylilyMosquito.genericMethodHalfGenArgs(objectMaylily, objectString);
         xMaylilyMosquito.genericMethodHalfGenArgs(objectMaylily, objectMosquito, objectString);
-
         System.out.println(xPigeonPlant.genericMethodGenArgs(objectPigeon));
         System.out.println(xPigeonPlant.genericMethodGenArgs(objectPigeon, objectPlant));
         xPigeonPlant.genericMethodHalfGenArgs(objectPigeon, objectString);
         xPigeonPlant.genericMethodHalfGenArgs(objectPigeon, objectPlant, objectString);
-
         System.out.println(xPotatoRadish.genericMethodGenArgs(objectPotato));
         System.out.println(xPotatoRadish.genericMethodGenArgs(objectPotato, objectRadish));
         xPotatoRadish.genericMethodHalfGenArgs(objectPotato, objectString);
         xPotatoRadish.genericMethodHalfGenArgs(objectPotato, objectRadish, objectString);
-
         System.out.println(xRavenRose.genericMethodGenArgs(objectRaven));
         System.out.println(xRavenRose.genericMethodGenArgs(objectRaven, objectRose));
         xRavenRose.genericMethodHalfGenArgs(objectRaven, objectString);
         xRavenRose.genericMethodHalfGenArgs(objectRaven, objectRose, objectString);
-
         System.out.println(xVegetableVertebrata.genericMethodGenArgs(objectVegetable));
         System.out.println(xVegetableVertebrata.genericMethodGenArgs(objectVegetable, objectVertebrata));
         xVegetableVertebrata.genericMethodHalfGenArgs(objectVegetable, objectString);
         xVegetableVertebrata.genericMethodHalfGenArgs(objectVegetable, objectVertebrata, objectString);
-
         System.out.println(xDieselPetrol.genericMethodGenArgs(objectDiesel));
         System.out.println(xDieselPetrol.genericMethodGenArgs(objectDiesel, objectPetrol));
         xDieselPetrol.genericMethodHalfGenArgs(objectDiesel, objectString);
         xDieselPetrol.genericMethodHalfGenArgs(objectDiesel, objectPetrol, objectString);
-
         System.out.println(xPourablePowerable.genericMethodGenArgs(objectPourable));
         System.out.println(xPourablePowerable.genericMethodGenArgs(objectPourable, objectPowerable));
         xPourablePowerable.genericMethodHalfGenArgs(objectPourable, objectString);
         xPourablePowerable.genericMethodHalfGenArgs(objectPourable, objectPowerable, objectString);
-
         System.out.println(xWaterFlyable.genericMethodGenArgs(objectWater));
         System.out.println(xWaterFlyable.genericMethodGenArgs(objectWater, objectFlyable));
         xWaterFlyable.genericMethodHalfGenArgs(objectWater, objectString);
         xWaterFlyable.genericMethodHalfGenArgs(objectWater, objectFlyable, objectString);
-
         System.out.println(xMatterPigeon.genericMethodGenArgs(objectMatter));
         System.out.println(xMatterPigeon.genericMethodGenArgs(objectMatter, objectPigeon));
         xMatterPigeon.genericMethodHalfGenArgs(objectMatter, objectString);
