@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyCars {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         List<String> cars = new ArrayList<>();
         cars.add("Мерс");
         cars.add("Ауди");
@@ -17,11 +17,16 @@ public class MyCars {
         cars.add("Жигуль");
         cars.add("Ауди");
 
-        BufferedWriter out = new BufferedWriter(new FileWriter("cars.txt"));
-        for (String car : cars) {
-            out.write("\"" + car + "\"\n");
+        try {
+            BufferedWriter out = new BufferedWriter(new FileWriter("cars.txt"));
+
+            for (String car : cars) {
+                out.write("\"" + car + "\"\n");
+            }
+            out.close();
+        } catch (IOException e) {
+            System.out.println("IOException - File not found");
         }
-        out.close();
 
         int i = 0;
 
@@ -32,7 +37,8 @@ public class MyCars {
 
         }
 
-        for (String car : cars) {
+        for (
+                String car : cars) {
             System.out.print(car + " ");
         }
     }
