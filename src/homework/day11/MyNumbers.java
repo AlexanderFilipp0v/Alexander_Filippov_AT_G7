@@ -1,6 +1,9 @@
 package homework.day11;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class MyNumbers {
     public static void main(String[] args) {
