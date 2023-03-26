@@ -14,15 +14,15 @@ public class MyPeople {
 
         int counter = 0;
         for (Person person : people) {
-            if (person.age >= 18 && ((person.age <= 60 && person.sex == Person.Sex.MAN)
+            if (person.age >= 18 && ((person.age < 60 && person.sex == Person.Sex.MAN)
                     || (person.age < 55 && person.sex == Person.Sex.WOMAN))) {
                 counter++;
             }
         }
         System.out.println(counter);
 
-        System.out.println(people.stream().filter(person -> person.age >= 18 && person.age <= 55 && person.sex == Person.Sex.WOMAN
-                || person.age >= 18 && person.age <= 60 && person.sex == Person.Sex.MAN).count());
+        System.out.println(people.stream().filter(person -> person.age >= 18 && person.age < 55 && person.sex == Person.Sex.WOMAN
+                || person.age >= 18 && person.age < 60 && person.sex == Person.Sex.MAN).count());
 
     }
 }
