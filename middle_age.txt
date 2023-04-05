@@ -1,0 +1,1 @@
+OptionalDouble[41.0]
